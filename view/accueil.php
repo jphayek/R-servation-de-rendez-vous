@@ -3,13 +3,11 @@
 session_start();
 
 // Storing session data
-$_SESSION["firstname"] = "Peter";
-$_SESSION["lastname"] = "Parker";
+$_SESSION["requested_day"] = "Peter";
+$_SESSION["requested_time"] = "Parker";
+$_SESSION["requester_email"] = "Peter";
+$_SESSION["request_status"] = "Parker";
 
- $requested_day = ""
- $requested_time = ""
- $requester_email = ""
- $request_status = ""
 
 
 
