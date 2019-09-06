@@ -51,18 +51,23 @@ CloseCon($conn);
   <div class="row">
     <div class="col-sm-4">
       <h3>Column 1</h3>
-      <p>When you need help,the doctor is always here!</p>
-      <p>The doctor is always ready for each and everyone of you!</p>
+      <p>Choose a day!</p>
+      <input type="date">
     </div>
     <div class="col-sm-4">
       <h3>Column 2</h3>
-      <p>Our profession is the only one which works unceasingly to annihilate itself. ...
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <p>Choose the Time</p>
+      <input type="time">
     </div>
     <div class="col-sm-4">
       <h3>Column 3</h3>        
-      <p>The best doctor is the one you run to and can't find. ...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <p>Please Put your E-mail so we can remind you</p>
+      <input type="email">
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3>        
+      <p>Setup your Status about your Sickness</p>
+      <input type="text">
     </div>
   </div>
 </div>
