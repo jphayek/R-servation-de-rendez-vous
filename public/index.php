@@ -22,6 +22,7 @@ function CloseCon($conn)
 
 
 include 'db_connection.php';
+include 'verification.php';
 $conn = OpenCon();
 echo "Connected Successfully";
 CloseCon($conn);
@@ -29,6 +30,7 @@ CloseCon($conn);
 
 
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -41,7 +43,7 @@ CloseCon($conn);
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-
+<form action="reservation.php" method="post">
 <div class="jumbotron text-center">
   <h1>Welcome Client</h1>
   <p>The best doctor is the one you run to and can't find. ...</p> 
@@ -51,29 +53,29 @@ CloseCon($conn);
   <div class="row">
     <div class="col-sm-4">
       <h3>Column 1</h3>
-      <p>Choose a day!</p>
-      <input type="date">
+      <h4>Choose a day!</h4>
+      <input type="date" name="requested_day">
     </div>
     <div class="col-sm-4">
       <h3>Column 2</h3>
-      <p>Choose the Time</p>
-      <input type="time">
+      <h4>Choose the Time</h4>
+      <input type="time" name="requested_time">
     </div>
     <div class="col-sm-4">
       <h3>Column 3</h3>        
-      <p>Please Put your E-mail so we can remind you</p>
-      <input type="email">
+      <h4>Please Put your E-mail so we can remind you</h4>
+      <input type="email" name="requested_email">
     </div>
     <div class="col-sm-4">
       <h3>Column 3</h3>        
-      <p>Setup your Status about your Sickness</p>
-      <input type="text">
+      <h4>Setup your Status about your Sickness</h4>
+      <input type="text" name="request_status">
     </div>
 
    
   </div>
 </div>
-<button type="submit" style="	display: flex;
+<button type="submit" method="post" style="	display: flex;
 	position: relative;
 	text-align: center;
 	padding: 20px 40px;
@@ -93,5 +95,6 @@ CloseCon($conn);
   color: white;
   font-size: 20px;">Send
 </button>
+</form>
 </body>
 </html>
