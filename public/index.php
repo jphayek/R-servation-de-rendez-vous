@@ -69,8 +69,29 @@ CloseCon($conn);
       <p>Setup your Status about your Sickness</p>
       <input type="text">
     </div>
+
+   
   </div>
 </div>
-
+<button type="submit" style="	display: flex;
+	position: relative;
+	text-align: center;
+	padding: 20px 40px;
+	border-color: #44bbff;
+	border-radius: 3px;
+	text-transform: uppercase;
+	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 30px;
+	color: #fff;
+	background-color: #44bbff;
+	width: 100%;
+	justify-content: center;
+	zoom: 1;
+  background-color: gray;
+  color: white;
+  font-size: 20px;">Send
+</button>
 </body>
 </html>
