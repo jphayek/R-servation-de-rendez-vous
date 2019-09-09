@@ -52,22 +52,22 @@ CloseCon($conn);
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
-      <h3>Column 1</h3>
+      <h3>Step 1:</h3>
       <h4>Choose a day!</h4>
       <input type="date" name="requested_day">
     </div>
     <div class="col-sm-4">
-      <h3>Column 2</h3>
+      <h3>Step 2:</h3>
       <h4>Choose the Time</h4>
       <input type="time" name="requested_time">
     </div>
     <div class="col-sm-4">
-      <h3>Column 3</h3>        
+      <h3>Step 3:</h3>        
       <h4>Please Put your E-mail so we can remind you</h4>
       <input type="email" name="requested_email">
     </div>
     <div class="col-sm-4">
-      <h3>Column 3</h3>        
+      <h3>Step 4:</h3>        
       <h4>Setup your Status about your Sickness</h4>
       <input type="text" name="request_status">
     </div>
