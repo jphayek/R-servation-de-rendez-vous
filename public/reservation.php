@@ -1,4 +1,5 @@
 <?php
+session_start();
  $reservation = "You Have reserve a place to see the DOCTOR";
 
 

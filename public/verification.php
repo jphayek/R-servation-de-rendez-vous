@@ -1,9 +1,9 @@
 <?php
 
-$requested_day = $_POST['requested_day'];
-$requested_time = $_POST['requested_time'];
-$requested_email = $_POST['requested_email'];
-$request_status = $_POST['request_status'];
+$requested_day = isset($_POST['requested_day']);
+$requested_time = isset($_POST['requested_time']);
+$requested_email = isset($_POST['requested_email']);
+$request_status = isset($_POST['request_status']);
 
 
 if(empty($requested_day) || empty($requested_time) || empty($requested_email) || empty($request_status))
