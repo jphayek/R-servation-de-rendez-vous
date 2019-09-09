@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 $requested_day = isset($_POST['requested_day']);
 $requested_time = isset($_POST['requested_time']);
 $requested_email = isset($_POST['requested_email']);
